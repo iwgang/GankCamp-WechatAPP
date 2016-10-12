@@ -1,0 +1,24 @@
+<view class="container">
+  <loading hidden="{{loadingHidden}}" bindchange="loadingChange">加载中...</loading>
+
+  <scroll-view scroll-y="true" bindscrolltolower="onBindscrolltolower" style="height: 100%;">
+    <view class="item-container" wx:for="{{girlData}}" wx:for-item="girlInfo">
+      <view class="iamge-item-container">
+        <image id="{{girlInfo[0].url}}" bindtap="onImageClick" class="image" mode="aspectFill" src="{{girlInfo[0].url}}"/>
+        <view class="tips-container">
+          <text style="flex: 1;">{{girlInfo[0].desc}}</text>
+          <text>via：{{girlInfo[0].who}}</text>
+        </view>
+      </view>
+      <view class="iamge-item-container">
+        <image id="{{girlInfo.length == 2 ? girlInfo[1].url : ''}}" bindtap="onImageClick" class="image" mode="aspectFill" src="{{girlInfo.length == 2 ? girlInfo[1].url : ''}}"/>
+        <view class="tips-container">
+           <text style="flex: 1;">{{girlInfo.length == 2 ? girlInfo[1].desc : ''}}</text>
+          <text>via：{{girlInfo.length == 2 ? girlInfo[1].who : ''}}</text>
+        </view>
+      </view>
+    </view>
+    
+    <include src="../common/loadmore.wxml"/>
+  </scroll-view>
+</view>

@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/recommend/recommend",
+    "pages/girl/girl",
+    "pages/my/my",
+    "pages/detail/detail",
+    "pages/showpic/showpic"
+  ],
+  "tabBar": {
+    "backgroundColor": "#FFF",
+    "color": "#000",
+    "selectedColor": "#FF5000",
+    "list": [
+      {
+        "iconPath": "image/tabicon/ic_home_tab_gank.png",
+        "selectedIconPath": "image/tabicon/ic_home_tab_gank.png",
+        "pagePath": "pages/index/index",
+        "text": "干货"
+      }, 
+      {
+        "iconPath": "image/tabicon/ic_home_tab_rec.png",
+        "selectedIconPath": "image/tabicon/ic_home_tab_rec.png",
+        "pagePath": "pages/recommend/recommend",
+        "text": "推荐"
+      },
+      {
+        "iconPath": "image/tabicon/ic_home_tab_girl.png",
+        "selectedIconPath": "image/tabicon/ic_home_tab_girl.png",
+        "pagePath": "pages/girl/girl",
+        "text": "妹纸"
+      },
+      {
+        "iconPath": "image/tabicon/ic_home_tab_collect.png",
+        "selectedIconPath": "image/tabicon/ic_home_tab_collect.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000
+  },
+  "window":{
+    "navigationBarBackgroundColor": "#9C978B",
+    "backgroundTextStyle": "light",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "干货集中营"
+  }
+}

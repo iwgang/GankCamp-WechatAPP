@@ -1,0 +1,30 @@
+<view class="container">
+  <loading hidden="{{loadingHidden}}" bindchange="loadingChange">加载中...</loading>
+  
+  <scroll-view scroll-y="true" style="height: 100%;">
+    <image bindtap="onBannerPicClick" class="banner-image" mode="aspectFill" src="{{bannerPicUrl}}"/>
+
+    <view class="header-info-container">
+      <text class="current-time">{{currentTime}}</text>
+      <picker bindchange="onSelRecommendTimeChange" range="{{recommendHistoryData}}" hidden="{{!loadingHidden}}">
+        <button class="sel-time-btn">切换日期</button>
+      </picker>
+    </view>
+
+    <block wx:for="{{recommendData}}" wx:for-item="recommendInfo">
+      <view class="category-container">
+        <text class="category-name">{{recommendInfo['categoryName']}}</text>
+        <view class="category-bottom-line"/>
+        <navigator url="../detail/detail?title={{recommendItemInfo.desc}}&url={{recommendItemInfo.url}}" wx:for="{{recommendInfo['list']}}" wx:for-item="recommendItemInfo">
+          <view class="item-container">
+            <text class="item-title-dot">•</text>
+            <text class="item-title">{{recommendItemInfo.desc}}</text>
+            <text class="item-author">{{recommendItemInfo.who ? recommendItemInfo.who : '无'}}</text>
+          </view>
+        </navigator>
+      </view>
+    </block>
+    <!-- 底部点位的 view -->
+    <view style="height: 100rpx;"/>
+  </scroll-view>
+</view>

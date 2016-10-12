@@ -1,0 +1,33 @@
+.item-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 10rpx;
+}
+
+.iamge-item-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 400rpx;
+  background-color: #ffffff;
+  padding: 8rpx;
+  padding-top: 0;
+}
+
+.tips-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 20rpx;
+  color: #333333;
+  padding-top: 20rpx;
+  padding-bottom: 30rpx;
+  padding-left: 10rpx;
+  padding-right: 10RPX;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  background-color: #eeeeee;  
+}

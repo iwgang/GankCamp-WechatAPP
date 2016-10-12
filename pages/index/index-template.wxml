@@ -1,0 +1,16 @@
+<template name="gankList">
+  <scroll-view scroll-y="true" bindscrolltolower="onBindscrolltolower" style="height: 100%;">
+    <navigator url="../detail/detail?title={{gankInfo.desc}}&url={{gankInfo.url}}" wx:for="{{gankList}}" wx:for-item="gankInfo">
+      <view class="item-container">
+      <text class="title">{{gankInfo.desc}}</text>
+      <view class="item-other-info-container">
+        <text style="flex: 1;">via：{{gankInfo.who ? gankInfo.who : '无'}}</text>
+        <text>{{gankInfo.publishedAt}}</text>
+      </view>
+      <view class="driver" style="margin-top: 21rpx;"/>
+      </view>
+    </navigator>
+
+    <include src="../common/loadmore.wxml"/>
+  </scroll-view>
+</template>

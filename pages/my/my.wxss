@@ -1,0 +1,42 @@
+.header-container {
+  display: flex;
+  flex-direction: column;
+  height: 300rpx;
+  background-color: #78968B;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.header-nickname {
+  color: #FFF;
+  font-size: 30rpx;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #FFF;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  padding-left: 25rpx;
+  align-items: center;
+}
+
+.item-icon {
+  height: 50rpx;
+  width: 50rpx;
+}
+
+.item-label {
+  flex: 1;
+  font-size: 30rpx;
+  color: #000;
+  margin-left: 25rpx;
+}

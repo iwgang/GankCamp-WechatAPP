@@ -1,0 +1,22 @@
+<view class="container" style="background-color: #EBEBEB;">
+  <scroll-view scroll-y="true" style="height: 100%;">
+    <view class="header-container">
+      <image class="header-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="header-nickname">{{userInfo.nickName}}</text>
+    </view>
+    
+    <navigator url="">
+      <view class="item-container" style="margin-top: 30rpx;">
+        <image class="item-icon" src="../../image/ic_collection.png" />
+        <text class="item-label">我的收藏</text>
+      </view>
+    </navigator>
+
+    <navigator url="">
+      <view class="item-container" style="margin-top: 2rpx;">
+        <image class="item-icon" src="../../image/ic_submit.png" />
+        <text class="item-label">提交干货</text>
+      </view>
+    </navigator>
+  </scroll-view>
+</view>
