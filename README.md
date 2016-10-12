@@ -6,11 +6,11 @@
 ### 截图
 ![](https://raw.githubusercontent.com/iwgang/GankCamp-WechatAPP/master/screenshot/all.gif)
 
-**其它截图** 
-<img src="https://raw.githubusercontent.com/iwgang/GankCamp-WechatAPP/master/screenshot/s1.jpg" width="400px" height="650px"/>
-<img src="https://raw.githubusercontent.com/iwgang/GankCamp-WechatAPP/master/screenshot/s2.jpg" width="400px" height="650px"/>
-<img src="https://raw.githubusercontent.com/iwgang/GankCamp-WechatAPP/master/screenshot/s3.jpg" width="400px" height="650px"/>
-<img src="https://raw.githubusercontent.com/iwgang/GankCamp-WechatAPP/master/screenshot/s4.jpg" width="400px" height="650px"/>
+**其它截图**  
+<img src="https://raw.githubusercontent.com/iwgang/GankCamp-WechatAPP/master/screenshot/s1.png" width="400px" height="650px"/>
+<img src="https://raw.githubusercontent.com/iwgang/GankCamp-WechatAPP/master/screenshot/s2.png" width="400px" height="650px"/>
+<img src="https://raw.githubusercontent.com/iwgang/GankCamp-WechatAPP/master/screenshot/s3.png" width="400px" height="650px"/>
+<img src="https://raw.githubusercontent.com/iwgang/GankCamp-WechatAPP/master/screenshot/s4.png" width="400px" height="650px"/>
 
 ### 感谢[Gank.io](http://gank.io)提供数据api
     
