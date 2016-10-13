@@ -1,0 +1,19 @@
+.item-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20rpx;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+}
+
+.title {
+  color: #000000;
+  font-size: 33rpx;
+}
+
+.time {
+  align-self: flex-end;
+  color: #999999;
+  font-size: 26rpx;
+  margin-top: 10rpx;
+}

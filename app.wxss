@@ -8,6 +8,7 @@ page {
   flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;
+  background-color: #EBEBEB;
 }
 
 .load-more-container {
@@ -27,7 +28,7 @@ page {
 }
 
 .driver {
-  height: 2rpx;
+  height: 3rpx;
   widows: 100%;
   background-color: #cccccc;
 }

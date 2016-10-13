@@ -1,10 +1,11 @@
-/*
+/**
+ * 首页 干货列表
  * author：iWgang
  * email:  iwgang@163.com
  * time:   2016-10-11
  * github：https://github.com/iwgang/GankCamp-WechatAPP
  */
-var util = require('../../utils/util.js')
+var util = require('../../utils/util')
 var curPageIndex = [1, 1, 1]
 var tabInitState = [false, false, false]
 

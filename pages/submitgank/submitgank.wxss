@@ -1,0 +1,31 @@
+.submit-btn {
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  margin-bottom: 40rpx;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #FFF;
+  padding: 20rpx;
+  margin-top: 30rpx;
+  align-items: center;
+}
+
+.label {
+  width: 150rpx;
+  color: #000;
+  font-size: 30rpx;
+}
+
+.input {
+  color: #000;
+  font-size: 30rpx;
+  flex: 1;
+}
+
+.type-text {
+  color: #000;
+  font-size: 30rpx;
+}

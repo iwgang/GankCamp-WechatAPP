@@ -1,7 +1,7 @@
 <view class="container">
-  <loading hidden="{{loadingHidden}}" bindchange="loadingChange">加载中...</loading>
+  <loading hidden="{{loadingHidden}}">加载中...</loading>
   
-  <scroll-view scroll-y="true" style="height: 100%;">
+  <scroll-view scroll-y="true" style="height: 100%; background-color: #FFF;">
     <image bindtap="onBannerPicClick" class="banner-image" mode="aspectFill" src="{{bannerPicUrl}}"/>
 
     <view class="header-info-container">

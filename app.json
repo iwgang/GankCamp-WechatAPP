@@ -5,7 +5,9 @@
     "pages/girl/girl",
     "pages/my/my",
     "pages/detail/detail",
-    "pages/showpic/showpic"
+    "pages/showpic/showpic",
+    "pages/submitgank/submitgank",
+    "pages/collection/collection"
   ],
   "tabBar": {
     "backgroundColor": "#FFF",

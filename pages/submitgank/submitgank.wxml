@@ -1,0 +1,34 @@
+<view class="container">
+  <loading hidden="{{loadingHidden}}">提交中...</loading>
+
+  <modal bindconfirm="onTipsConfirm" hidden="{{hiddenTips}}" no-cancel >{{tipsContent}}</modal>
+
+  <modal bindcancel="onCommitTipsCancel" bindconfirm="onCommitTipsConfirm" hidden="{{hiddenCommitTips}}">确认提交干货？</modal>
+
+  <toast hidden="{{hideCommitSuccessToast}}">提交成功</toast>
+
+  <scroll-view scroll-y="true" style="flex: 1;">
+    <view class="item-container">
+      <text class="label">描述</text>
+      <input bindinput="onDescInput" class="input" placeholder="请输入描述信息..." value="{{desc}}"/>
+    </view>
+
+    <view class="item-container">
+      <text class="label">提交者</text>
+      <input bindinput="onWhoInput" class="input" placeholder="请输入提交者姓名..." value="{{who}}"/>
+    </view>
+
+    <view class="item-container">
+      <text class="label">URL</text>
+      <input bindinput="onUrlInput" class="input" placeholder="请输入 url 地址..."/>
+    </view>
+
+    <view class="item-container">
+      <text class="label">类型</text>
+      <picker value="0" bindchange="onSelTypeChange" range="{{types}}" style="flex: 1;">
+        <text class="type-text">{{types[curSelTypeIndex]}}</text>
+      </picker>
+    </view>
+  </scroll-view>
+  <button bindtap="submitGank" class="submit-btn" type="primary">提交干货</button>
+</view>

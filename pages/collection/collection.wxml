@@ -1,0 +1,12 @@
+<view class="container">
+  <scroll-view scroll-y="true" style="height: 100%; background-color: #FFF;">
+    <navigator url="../detail/detail?title={{collection.title}}&url={{collection.url}}" wx:for="{{collections}}" wx:for-item="collectionInfo">
+      <view class="item-container">
+        <text class="title">{{collectionInfo.title}}</text>
+        <text class="time">收藏于：{{collectionInfo.ctime}}</text>
+
+        <view class="driver" style="margin-top: 21rpx;"/>
+      </view>
+    </navigator>
+  </scroll-view>
+</view>

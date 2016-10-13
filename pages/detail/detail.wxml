@@ -1,5 +1,7 @@
 <view class="container">
   <view style="display: flex; flex-direction: column; height: 100%; width: 100%;">
+    <button bindtap="collection">收藏</button>
+
     <text style="margin: 10rpx;">标题：{{title}}</text>
     <text style="margin: 10rpx;">url：{{url}}</text>
     <text style="margin: 10rpx; margin-top: 30rpx;">这里应该是显示页面内容的，目前官方还没有提供相应的组件...</text>
